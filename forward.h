@@ -1,0 +1,33 @@
+#pragma once
+#include <Windows.h>
+#include <atomic>
+#include <stdio.h>
+//#include <pthread.h>
+#include <assert.h>
+#include <functional>
+#include <type_traits>
+//#include "mutex.hpp"
+//#include "ztl_atomic.h"
+#include <iostream>
+#include <mutex>
+#include <thread>
+#include <chrono>
+#include <algorithm>
+#include <vector>
+#include <memory>
+#include <array>
+namespace ztl
+{
+	using std::shared_ptr;
+	using std::make_shared;
+	using std::array;
+	using std::atomic;
+	using std::cout;
+	using std::endl;
+	using std::chrono::duration;
+	using std::chrono::time_point;
+	using std::move;
+	using std::sort;
+	using std::set_difference;
+	using std::vector;
+}

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\mutex">
+      <UniqueIdentifier>{1dc8f9dc-77f7-4d1c-9f23-6a500df4c505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{f0b0d3cf-7320-422e-becb-6179e3843548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\concurrency_container">
+      <UniqueIdentifier>{c10873d4-a9a0-4260-aa39-0e8cfbad4c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\thread_pool">
+      <UniqueIdentifier>{3ee36680-a0eb-4424-9a60-971e95690e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{446a97fe-9797-4f1b-8c49-1eaa149a3699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\test_common">
+      <UniqueIdentifier>{a3d5e77b-4fc0-4394-b25a-08ae255a806a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\test_concurrency_container">
+      <UniqueIdentifier>{9cbb91f8-073a-40ed-ba6f-b32c1da5bbd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\test_mutex">
+      <UniqueIdentifier>{52fa3e54-c1a0-4721-aac5-d34b8c823f8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ztl_mutex.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ztl_atomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="forward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ztl_condition_variable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex\ztl_exclusive_mutex.hpp">
+      <Filter>Header Files\mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex\ztl_recursive_mutex.hpp">
+      <Filter>Header Files\mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex\ztl_read_write_mutex.hpp">
+      <Filter>Header Files\mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_all_component.hpp">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="ztl_semaphore.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ztl_count_down_latch.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrency_contianer\ztl_concurrency_queue.hpp">
+      <Filter>Header Files\concurrency_container</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_pool\ztl_thread_pool.hpp">
+      <Filter>Header Files\thread_pool</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_pool\work_thread.hpp">
+      <Filter>Header Files\thread_pool</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex\ztl_guard_lock.hpp">
+      <Filter>Header Files\mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex\ztl_spin_lock.hpp">
+      <Filter>Header Files\mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ztl_concurrency_utility.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="test\common\test_atomic_operator.hpp">
+      <Filter>Test\test_common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ztl_atomic_operator.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ztl_stamp_pair.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrency_contianer\ztl_concurrency_ring_queue.hpp">
+      <Filter>Header Files\concurrency_container</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrency_contianer\ztl_concurrency_stack.hpp">
+      <Filter>Header Files\concurrency_container</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_mutex\test_exclusive_mutex.hpp">
+      <Filter>Test\test_mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_mutex\test_read_write_mutex.hpp">
+      <Filter>Test\test_mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_concurrency_container\test_concurrency_queue.hpp">
+      <Filter>Test\test_concurrency_container</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test_concurrency_container\test_concurrency_stack.hpp">
+      <Filter>Test\test_concurrency_container</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ztl_hazard_pointer.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ztl_atomic_shared_ptr.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrency_contianer\ztl_concurrency_skiplist.hpp">
+      <Filter>Header Files\concurrency_container</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="forward.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
